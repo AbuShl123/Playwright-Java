@@ -1,4 +1,4 @@
-package com.foleyservices.utils;
+package dev.abu.utils;
 
 import org.slf4j.LoggerFactory;
 

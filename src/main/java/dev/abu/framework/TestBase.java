@@ -1,6 +1,6 @@
-package com.foleyservices.framework;
+package dev.abu.framework;
 
-import com.foleyservices.playwright.Browser;
+import dev.abu.playwright.Browser;
 import org.slf4j.MDC;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 
 import java.lang.reflect.Method;
 
-import static com.foleyservices.utils.Logger.log;
+import static dev.abu.utils.Logger.log;
 
 public class TestBase {
 

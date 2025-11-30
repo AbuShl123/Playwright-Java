@@ -1,4 +1,4 @@
-package com.foleyservices.playwright;
+package dev.abu.playwright;
 
 import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType;
@@ -11,9 +11,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static com.foleyservices.utils.EnvParams.*;
-import static com.foleyservices.utils.Logger.log;
-import static com.foleyservices.utils.Status.FAIL;
+import static dev.abu.utils.EnvParams.*;
+import static dev.abu.utils.Logger.log;
+import static dev.abu.utils.Status.FAIL;
 
 public class Browser {
 

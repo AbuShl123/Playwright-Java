@@ -1,4 +1,4 @@
-package com.foleyservices.tests;
+package dev.abu.tests;
 
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.assertions.LocatorAssertions;
@@ -9,8 +9,8 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.Map;
 
-import static com.foleyservices.playwright.Browser.TIMEOUT;
-import static com.foleyservices.utils.EnvParams.*;
+import static dev.abu.playwright.Browser.TIMEOUT;
+import static dev.abu.utils.EnvParams.*;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 public class Testing {
